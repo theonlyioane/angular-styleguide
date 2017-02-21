@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/styleguide.css"> 
+    <title>Luxury Yachts Styleguide</title>
+</head>
+<body>
+   <div class="row">
+       <div class="col-md-3">
+          <ul>
+              <li><a ng-model="section-introduction">Introduction</a></li>
+              <li><a ng-model="section-colors">Colors</a></li>
+               <li>Typography</li>
+               <li>Buttons</li>
+               <li>Inconography</li>
+           </ul>
+       </div>
+       <div class="col-md-9">
+           <section ng-hide="section-introduction">
+               <h2>Introduction</h2>
+               <p>This is the style guide for Luxury Yacht Group</p>
+               <h6>Last Edit: 2-21-17</h6>
+           </section>
+           <section ng-click="section-colors">
+               <h2>Colors</h2>
+               <p>This is the style guide for Luxury Yacht Group</p>
+               <h6>Last Edit: 2-21-17</h6>
+               
+               <h3>Swatches</h3>
+               <div class="row">
+                   <div class="col-md-3 col-xs-6">
+                       <div class="swatch-wrapper">
+                           <div class="swatch brand-blue-swatch"></div>
+                           <h4>#0372BC</h4>
+                           <h5>.brand-blue</h5>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="swatch-wrapper">
+                           <div class="swatch brand-border-swatch"></div>
+                           <h4>#D3E0E9</h4>
+                           <h5>.brand-border</h5>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="swatch-wrapper">
+                           <div class="swatch brand-bg-swatch"></div>
+                           <h4>#F5F8FA</h4>
+                           <h5>.brand-bg</h5>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="swatch-wrapper">
+                           <div class="swatch brand-headline-swatch"></div>
+                           <h4>#484848</h4>
+                           <h5>.brand-headline</h5>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="swatch-wrapper">
+                           <div class="swatch brand-text-swatch"></div>
+                           <h4>#9B9B9B</h4>
+                           <h5>.text-swatch</h5>
+                       </div>
+                   </div>
+               </div>
+               </div>
+           </section>
+       </div>
+   </div>
+    
+</body>
+</html>
