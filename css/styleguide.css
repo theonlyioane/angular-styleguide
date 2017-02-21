@@ -15,6 +15,14 @@
     color:#F5F8FA;
 }
 
+
+section {
+    padding:20px;
+}
+.last-edit {
+    opacity: .5;
+}
+
 /*SWATCHES*/
 .swatch {
     width:100%;
@@ -24,10 +32,12 @@
 }
 .swatch-wrapper {
     width:100%;
+    float:left;
+    margin-bottom:24px;
 }
 .swatch-wrapper h4{
     float:left;
-    margin-top:20px;
+    margin-top:16px;
     margin-bottom:0px;
     width: 100%;
 }
@@ -36,6 +46,7 @@
     font-weight:400;
     float:left;
     width: 100%;
+    margin-top:8px
 }
 
 .brand-blue-swatch {
