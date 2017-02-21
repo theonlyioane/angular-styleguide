@@ -5,37 +5,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="css/styleguide.css"> 
+    <link rel="stylesheet" href="css/global.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <title>Luxury Yachts Styleguide</title>
 </head>
 <body>
    <div class="row">
-       <div class="col-md-3">
-          <ul>
-                <li><a ng-model="section-introduction">Introduction</a></li>
-                <li><a ng-model="section-colors">Colors</a></li>
-                <li>Typography</li>
-                <li>Buttons</li>
-                <li>Inconography</li>
-                <li>Inconography</li>
+       <div class="col-md-2">
+         <!--
+          <ul class="guide-nav">
+                <li><a ng-click="introduction = !introduction">Introduction</a></li>
+                <li><a ng-click="colors = !colors">Colors</a></li>
+                <li><a ng-click="type = !type">Typography</a></li>
+                <li><a ng-click="buttons = !buttons">Buttons</a></li>
+                <li><a ng-click="icons = !icons">Inconography</a></li>
            </ul>
+-->
        </div>
-       <div class="col-md-9">
-           <section>
-               <h2>Introduction</h2>
-               <p>This is the style guide for Luxury Yacht Group</p>
+       <div class="col-md-10" style="max-width:1200px;margin:0 auto;">
+           <section ng-hide="introduction">
+               <h2 class="brand-blue">Introduction</h2>
+               <p>This is the style guide for Luxury Yacht Group. The latest CSS file for the global files can be found here:</p>
+               <xmp><link rel="stylesheet" href="css/global.css"></xmp>
                <h6 class="last-edit">Last Edit: 2-21-17</h6>
            </section>
-           <section>
-               <h2>Colors</h2>
+           <hr>
+           <section ng-hide="colors">
+               <h2 class="brand-blue">Colors</h2>
                <p>This is the style guide for Luxury Yacht Group</p>
-               <h6 class="last-edit">Last Edit: 2-21-17</h6>
-               
-               <h3>Swatches</h3>
                <div class="row">
                    <div class="col-md-3 col-xs-6">
                        <div class="swatch-wrapper">
                            <div class="swatch brand-blue-swatch"></div>
-                           <h4>#0372BC</h4>
+                           <h4>0372BC</h4>
                            <h5>.brand-blue</h5>
                        </div>
                    </div>
@@ -69,32 +72,108 @@
                    </div>
                </div>
            </section>
-           <section>
+           <hr>
+           <section ng-hide="type">
+               <h2 class="brand-blue">Headline Styles</h2>
                <h1 class="brand-headline">This is the style for the H1</h1>
                <h2 class="brand-headline">This is the style for the H2</h2>
                <h3 class="brand-headline">This is the style for the H3</h3>
                <h4 class="brand-headline">This is the style for the H4</h4>
                <h5 class="brand-headline">This is the style for the H5</h5>
                <h6 class="brand-headline">This is the style for the H6</h6>
-               <p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p>
+               <xmp><h1 class="brand-headline">This is the style for the H1</h1></xmp>
            </section>
+           <hr>
            <section>
+               <h2 class="brand-blue">Body Text</h2>
+               <p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p>
+               <xmp><p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p></xmp>
+           </section>
+           <hr>
+           <section ng-hide="buttons">
+                <h2 class="brand-blue">Button Styles</h2>
                 <div class="row">
-                   <h2>Button Styles</h2>
-                    <div class="col-md-3">
-                        <button class="btn btn-primary">Primary Button</button>
+                    <div class="col-md-6 m-b-24">
+                        <h5>Primary button style</h5> 
+                        <button class="btn btn-primary">Click Me</button>
+                        <xmp><button class="btn btn-primary">Click Me</button></xmp>
                     </div>
-                    <div class="col-md-3">
-                        <button class="btn btn-secondary">Secondary Button</button>
+                    <div class="col-md-6 m-b-24">
+                        <h5>Secondary button style</h5>
+                        <button class="btn btn-secondary">Click Me</button>
+                        <xmp><button class="btn btn-secondary">Click Me</button></xmp>
                     </div>
-                    <div class="col-md-3">
-                        <button class="btn btn-disabled">Disabled Button</button>
+                    <div class="col-md-6 m-b-24">
+                        <h5>Disabled button style</h5>
+                        <button class="btn btn-disabled">Click Me</button>
+                        <xmp><button class="btn btn-disabled">Click Me</button></xmp>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 m-b-24">
+                        <h5>Alert button style</h5>
                         <button class="btn btn-alert">Alert Button</button>
+                        <xmp><button class="btn btn-alert">Alert Button</button></xmp>
                     </div>
+               </div>
+                    
+               <div class="row"> 
+                   <div class="col-md-6 m-b-24">
+                       <h5>Primary button style w/ icon</h5> 
+                       <button class="btn btn-primary"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button>
+                       <xmp><button class="btn btn-primary"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button></xmp>
+                   </div>
+                   <div class="col-md-6 m-b-24">
+                       <h5>Secondary button style w/ icon</h5>
+                       <button class="btn btn-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button>
+                       <xmp><button class="btn btn-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button></xmp>
+                   </div>
+                   <div class="col-md-6 m-b-24">
+                       <h5>Disabled button style w/ icon</h5>
+                       <button class="btn btn-disabled"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button>
+                       <xmp><button class="btn btn-disabled"><i class="fa fa-info-circle" aria-hidden="true"></i> Click Me</button></xmp>
+                   </div>
+                   <div class="col-md-6 m-b-24">
+                       <h5>Alert button style w/ icon</h5>
+                       <button class="btn btn-alert"><i class="fa fa-info-circle" aria-hidden="true"></i> Alert Button</button>
+                       <xmp><button class="btn btn-alert"><i class="fa fa-info-circle" aria-hidden="true"></i> Alert Button</button></xmp>
+                   </div>
                 </div>
            </section>
+           <hr>
+           <section>
+               <h2 class="brand-blue">Inputs</h2>
+                   <div class="row">
+                       <div class="col-md-6 m-b-24">
+                           <h5>Input</h5> 
+                           <input class="input-wrapper" placeholder="Type Here">
+                           <xmp><input class="input-wrapper" placeholder="Type Here"></xmp>
+                       </div>
+                       <div class="col-md-6 m-b-24">
+                           <h5>Input</h5> 
+                           <div class="country-phone">
+                               <input class="country-left" value="+1">
+                               <input class="country-right" placeholder="Phone Number">
+                           </div>
+                           <xmp><div class="country-phone"><input class="country-left" value="+1"><input class="country-right" placeholder="Phone Number"></div></xmp>
+                       </div>
+                       <div class="col-md-6 m-b-24">
+                           <h5>Date Input</h5>
+                           <div class="date-selector">
+                               <input class="date-left">
+                               <input class="date-middle">
+                               <input class="date-right">
+                           </div>
+                       </div>
+                   </div>
+           </section>
+           <hr>
+           <section>
+               <h2 class="brand-blue">Status Icons</h2>
+           </section>
+           <hr>
+           <section>
+               <h2 class="brand-blue">Chips / Cards</h2>
+           </section>
+           <hr>
        </div>
    </div>
     

@@ -1,36 +1,46 @@
+
+
+/*STYLE GUIDE*/
+ul {
+    list-style: none;
+}
+li {
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.m-b-24 {
+    margin-bottom:24px;
+}
 html {
     overflow-x:hidden;
 }
-
-/*BRAND COLORS*/
-.brand-blue {
-    color:#0372BC;
-}
-.brand-border {
-    color:#D3E0E9;
-}
-.brand-headline{
-    color:#484848;
-}
-.brand-text {
-    color:#9B9B9B;
-}
-.brand-bg {
-    color:#F5F8FA;
-}
-
-
 section {
     padding:20px;
 }
 .last-edit {
     opacity: .5;
 }
+xmp {
+    background: #F5F8FA;
+    border:1px solid #D3E0E9;
+    width: 100%;
+    padding:8px 16px;
+    white-space:pre-wrap;
+    border-radius:4px;
+    opacity: .5;
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+}
+xmp:hover {
+opacity: 1;}
+/*BRAND COLORS*/
 
 /*SWATCHES*/
 .swatch {
     width:100%;
-    height:200px;
+    height:40px;
     border:1px solid #D3E0E9;
     float:left;
 }
@@ -52,7 +62,6 @@ section {
     width: 100%;
     margin-top:8px
 }
-
 .brand-blue-swatch {
     background:#0372BC;
 }
