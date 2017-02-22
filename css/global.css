@@ -83,6 +83,11 @@ input {
     border-top-left-radius:0px;
     border-bottom-left-radius:0px;
 }
+.date-selector{
+    height:auto;
+    width:200px;
+    float:left;
+}
 .date-left,
 .date-right,
 .date-middle {
@@ -100,4 +105,54 @@ input {
 .date-right {
     border-top-left-radius:0px;
     border-bottom-left-radius:0px;
+}
+
+/*CHIPS*/
+.user-badge {
+    max-width:300px;
+    background:#fff;
+    border: 1px solid #D3E0E9;
+    padding:20px;
+    float:left;
+}
+.user-profile {
+    height:72px;
+    width:72px;
+    border: 1px solid #D3E0E9;
+    background:#F5F8FA;
+    float:left;
+}
+.user-badge-info {
+    float:right;
+    width:160px;
+    padding-left:0px
+}
+.user-badge-info h6 {
+    opacity: .5;
+    margin-top:0px;
+    margin-bottom:5px
+}
+.user-badge-info h4 {
+    font-weight:600;
+    margin-top:5px;
+    margin-bottom:3px;
+}
+.user-badge-info a {
+    float:left;
+    width:100%;
+    margin-top:1px;
+    font-size:12px;
+}
+.user-badge-info a:hover {
+    color:#286090;
+    text-decoration: none;
+    cursor: pointer;
+}
+.user-badge .btn-group {
+    width:100%;
+    margin-top:20px;
+}
+.user-badge .btn-group button {
+    width:33.33%;
+    border: 1px solid #D3E0E9;
 }
