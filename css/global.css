@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+p {
+    line-height:1.6;
+}
 /*BRAND COLORS*/
 .brand-blue {
     color:#0372BC;
@@ -53,7 +56,6 @@
     color: #fff;
     background:#ea4335;
 }
-
 .btn .fa {
     margin-right:5px;
 }
@@ -135,7 +137,7 @@ input {
 .user-badge-info h4 {
     font-weight:600;
     margin-top:5px;
-    margin-bottom:3px;
+    margin-bottom:2px;
 }
 .user-badge-info a {
     float:left;

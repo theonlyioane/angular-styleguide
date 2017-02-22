@@ -11,23 +11,12 @@
     <title>Luxury Yachts Styleguide</title>
 </head>
 <body>
-   <div class="row">
-       <div class="col-md-2">
-         <!--
-          <ul class="guide-nav">
-                <li><a ng-click="introduction = !introduction">Introduction</a></li>
-                <li><a ng-click="colors = !colors">Colors</a></li>
-                <li><a ng-click="type = !type">Typography</a></li>
-                <li><a ng-click="buttons = !buttons">Buttons</a></li>
-                <li><a ng-click="icons = !icons">Inconography</a></li>
-           </ul>
--->
-       </div>
-       <div class="col-md-10" style="max-width:1200px;margin:0 auto;">
+    <div class="row" style="max-width:1200px;margin:0 auto;">
+       <div class="col-md-12" >
            <section ng-hide="introduction">
                <h2 class="brand-blue">Introduction</h2>
                <p>This is the style guide for Luxury Yacht Group. The latest CSS file for the global files can be found here:</p>
-               <xmp><link rel="stylesheet" href="css/global.css"></xmp>
+               <a href="https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css" target="_blank">https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css</a>
                <h6 class="last-edit">Last Edit: 2-21-17</h6>
            </section>
            <hr>
@@ -177,6 +166,7 @@
                <h2 class="brand-blue">Chips / Cards</h2>
                <div class="row">
                    <div class="col-md-6">
+                      <h5>User Badge</h5>
                        <div class="user-badge">
                            <div class="user-profile"></div>
                            <div class="user-badge-info">
@@ -191,6 +181,9 @@
                                <button type="button" class="btn btn-secondary"><i class="fa fa-cog" aria-hidden="true"></i></button>
                            </div>
                        </div>
+                   </div>
+                   <div class="col-md-6">
+                       <xmp><div class="user-badge"><div class="user-profile"></div><div class="user-badge-info"><h6>ID# 123456</h6><h4>Jennie Smith</h4><a class="brand-blue">+1 808-721-3896</a><a class="brand-blue">Test@gmail.com</a></div><div class="btn-group" role="group"><button type="button" class="btn btn-secondary"><i class="fa fa-anchor" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary"><i class="fa fa-ship" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary"><i class="fa fa-cog" aria-hidden="true"></i></button></div></div></xmp>
                    </div>
                </div>
            </section>
