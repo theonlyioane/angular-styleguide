@@ -32,9 +32,16 @@ xmp {
     -moz-transition: opacity .25s ease-out;
     -webkit-transition: opacity .25s ease-out;
     -o-transition: opacity .25s ease-out;
+    float:left;
 }
 xmp:hover {
-opacity: 1;}
+    opacity: 1;
+}
+hr {
+    float:left;
+    width: 100%;
+    margin:40px 0px;
+}
 /*BRAND COLORS*/
 
 /*SWATCHES*/
