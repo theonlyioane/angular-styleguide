@@ -12,31 +12,85 @@
 </head>
 <body>
     <div class="sg-side">
-        <h3 class="brand-blue m-b-40">Luxury Yacht Group Styleguide</h3>
+           <img src="assets/logo.png" style="width:200px;margin-bottom:40px;">
         <ul>
-            <li>Introduction</li>
-            <li>Colors</li>
-            <li>Typography</li>
+            <li><h4><a href="#introduction">Introduction</a></h4></li>
+            <li><h4><a href="#colors">Colors</a></h4></li>
+            <li><h4>Typography</h4></li>
+                <ol>
+                    <li><a href="#headline">Headlines</a></li>
+                    <li><a href="#bodytext">Body Text</a></li>
+                    <li>List Styles</li>
+                </ol>
             <li>Buttons</li>
+                <ol>
+                    <li>Buttons</li>
+                    <li>Text Links</li>
+                    <li>Crew Navigation</li>
+                    <li>Breadcrumbs</li>
+                    <li>Button Groups</li>
+                    <li>Page Selectors</li>
+                    <li>Mobile Download Button</li>
+                    <li>Career Path</li>
+                </ol>
             <li>Inputs</li>
+                <ol>
+                    <li>Basic Inputs</li>
+                    <li>Phone Number</li>
+                    <li>Date Input</li>
+                </ol>
             <li>Icons</li>
+                <ol>
+                    <li>Font Awesome</li>
+                    <li>Status Badges</li>
+                    <li>Epaulets</li>
+                    <li>Custom Icons</li>
+                </ol>
             <li>Modules</li>
+                <ol>
+                    <li>User Badge</li>
+                    <li>Items Selection</li>
+                    <li>Position Card</li>
+                    <li>Add Position</li>
+                    <li>Data Chip</li>
+                </ol>
             <li>Templates</li>
+                <ol>
+                    <li>Navigation</li>
+                    <li>Footer</li>
+                </ol>
+            <li>Grid Systems</li>
+                <ol>
+                    <li>Marketing Pages</li>
+                    <li>Dashboard</li>
+                    <li>Mobile</li>
+                </ol>
             <li>Assets</li>
+                <ol>
+                    <li>Logo</li>
+                    <li>Image Styles</li>
+                </ol>
         </ul>
     </div>
-    <div class="row" style="margin-left:260px;">
+    <div class="row" style="margin-left:260px;" id="introduction">
         <div class="col-md-1"></div>
         <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
-           <section ng-hide="introduction">
+           <section>
                <h1>Introduction</h1>
                <p>This is the style guide for Luxury Yacht Group. The latest CSS file for the global files can be found here:</p>
                <a href="https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css" target="_blank">https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css</a>
                <h6 class="last-edit">Last Edit: 3-8-17</h6>
            </section>
-           <hr>
-           <section ng-hide="colors">
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+           
+    <div class="row" style="margin-left:260px;" id="introduction">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
+           <section id="colors">
                <h1>Colors</h1>
+               <hr>
                <p>This is the style guide for Luxury Yacht Group</p>
                <div class="row">
                    <div class="col-md-3 col-xs-6">
@@ -90,10 +144,16 @@
                    </div>
                </div>
            </section>
-           <hr>
-           <section ng-hide="type">
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+           
+    <div class="row" style="margin-left:260px;" id="introduction">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
+            <section id="headline">
                <h1>Typography</h1>
-               <h2 >Headline Styles</h2>
+               <h2>Headline Styles</h2>
                <h1 class="brand-headline">This is the style for the H1</h1>
                <p class="content-title">Roboto Semibold - 32px</p>
                <p class="m-b-40">H1 should be used as a page title, and should only be referenced once a page.</p>
@@ -121,7 +181,7 @@
                <!--<xmp><h1 class="brand-headline">This is the style for the H1</h1></xmp>-->
            </section>
            <hr>
-           <section>
+           <section id="bodytext">
                <h1 class="brand-blue">Body Text</h1>
                <p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p>
                <xmp><p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p></xmp>
@@ -160,7 +220,13 @@
                    </div>
                 </div>
                 </section>
-           <hr>
+            </div>
+        <div class="col-md-1"></div>
+    </div>
+          
+    <div class="row" style="margin-left:260px;" id="introduction">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
            <section ng-hide="buttons">
                 <h1 class="brand-blue">Button Styles</h1>
                 <div class="row">
@@ -211,13 +277,142 @@
            <hr>
            <section><h2>Text Links</h2></section><hr>
             <section>
+                <h2>Crew Navigation</h2>
+                <div class="leftBar" ng-show="cvview=='cv'">
+                    <div class="sectionNav">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li role="presentation" class="active" style="cursor:pointer;" ng-click="savecrew();getCrewView;"><a>Resume</a></li>
+                            <li role="presentation" class="disabled-field" style="cursor:pointer;" ng-click="savecrew();getJobsView();jobfilter=1;">
+                                <a>Jobs <span ng-show="newavail" class="jobs-number"> {{newjobs}}</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resumeSection">
+                        <button type="button" class="resumeBtn push desktopHide" data-toggle="modal" data-target="#photo-upload" data-target=".bs-example-modal-lg">
+                            <p>Profile Image</p>
+                            <div class="resume-progress complete">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-plus fa" style="margin-top: 8px;" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine cv-mobile-hide"></div>
+                            <div class="resumeLine cv-mobile-hide" style="width:60%"></div>
+                        </button>
+                        <button type="button" class="resumeBtn information-push" ng-click="savecrew();section=1;subsection=1;">
+                            <p>Information </p>
+                            <div class="resume-progress">
+                                <i class="fa fa-check" aria-hidden="true" ng-show="regstatus.infostatus=='done'"></i>
+                                <div class="half-progress" ng-show="regstatus.infostatus=='some'"></div>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine cv-mobile-hide" ng-class="{'inactive':regstatus.infostatus=='some' || regstatus.infostatus=='none'}"></div>
+                            <div class="resumeLine cv-mobile-hide" style="width:60%" ng-class="{'inactive':regstatus.infostatus=='some' || regstatus.infostatus=='none'}"></div>
+                        </button>
+                        <button type="button" class="resumeBtn" ng-click="savecrew();section=2;subsection=6;">
+                            <p>Objectives </p>
+                            <div ng-class="{'resume-progress complete':regstatus.objstatus=='done','resume-progress working':regstatus.objstatus=='some','resume-progress incomplete':regstatus.objstatus=='none'}">
+                                <i class="fa fa-check" aria-hidden="true" ng-show="regstatus.objstatus=='done'"></i>
+                                <div class="half-progress" ng-show="regstatus.objstatus=='some'"></div>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine cv-mobile-hide" ng-class="{'inactive':regstatus.objstatus=='some' || regstatus.objstatus=='none'}"></div>
+                            <div class="resumeLine cv-mobile-hide" ng-class="{'inactive':regstatus.objstatus=='some' || regstatus.objstatus=='none'}" style="width:60%"></div>
+                        </button>
+                        <button type="button" class="resumeBtn" ng-click="savecrew();gocert();">
+                            <p>Certificates</p>
+                            <div ng-class="{'resume-progress complete':regstatus.certstatus=='done','resume-progress working':regstatus.certstatus=='some','resume-progress incomplete':regstatus.certstatus=='none'}">
+                                <i class="fa fa-check" aria-hidden="true" ng-show="regstatus.certstatus=='done'"></i>
+                                <div class="half-progress" ng-show="regstatus.certstatus=='some'"></div>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine  cv-mobile-hide" ng-class="{'inactive':regstatus.certstatus=='some' || regstatus.certstatus=='none'}"></div>
+                            <div class="resumeLine  cv-mobile-hide" style="width:60%" ng-class="{'inactive':regstatus.certstatus=='some' || regstatus.certstatus=='none'}"></div>
+                        </button>
+                        <button type="button" class="resumeBtn" ng-click="savecrew();goexp();">
+                            <p>Experience</p>
+                            <div ng-class="{'resume-progress complete':regstatus.expstatus=='done','resume-progress working':regstatus.expstatus=='some','resume-progress incomplete':regstatus.expstatus=='none'}">
+                                <i class="fa fa-check" aria-hidden="true" ng-show="regstatus.expstatus=='done'"></i>
+                                <div class="half-progress" ng-show="regstatus.expstatus=='some'"></div>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine  cv-mobile-hide" ng-class="{'inactive':regstatus.expstatus=='some' || regstatus.expstatus=='none'}"></div>
+                            <div class="resumeLine  cv-mobile-hide" style="width:60%" ng-class="{'inactive':regstatus.expstatus=='some' || regstatus.expstatus=='none'}"></div>
+                        </button>
+                        <button type="button" class="resumeBtn" ng-click="savecrew();section=5">
+                            <p>Uploads</p>
+                            <div ng-class="{'resume-progress complete':regstatus.uplstatus=='done','resume-progress working':regstatus.uplstatus=='some','resume-progress incomplete':regstatus.uplstatus=='none'}">
+                                <i class="fa fa-check" aria-hidden="true" ng-show="regstatus.uplstatus=='done'"></i>
+                                <div class="half-progress" ng-show="regstatus.uplstatus=='some'"></div>
+                            </div>
+                            <div class="mobileArrow">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="resumeLine cv-mobile-hide" ng-class="{'inactive':regstatus.uplstatus=='some' || regstatus.uplstatus=='none'}"></div>
+                            <div class="resumeLine cv-mobile-hide" style="width:60%" ng-class="{'inactive':regstatus.uplstatus=='some' || regstatus.uplstatus=='none'}"></div>
+                        </button>
+                    </div>
+
+                    <div class="progress-title m-t-20 cv-mobile-hide" ng-show="!crew_obj.tbl_crew_profile[0].jobready">
+                        <p>Current Progress</p>
+                    </div>
+
+                    <div class="progress-section" ng-show="!crew_obj.tbl_crew_profile[0].jobready">
+                        <div class="progress-info">
+                            <i class="fa fa-info-circle fa-lg resume-info" data-toggle="tooltip" data-placement="bottom" title="New candidate: Application is incomplete. Jobs can be viewed but not applied for." style="color:#34a853;"></i>
+                            <i class="fa fa-info-circle fa-lg resume-info m-l-80" data-toggle="tooltip" data-placement="bottom" title="In Progress: Registration is making progress but requires updates to be competitive with other candidates." ng-style="middleistyle"></i>
+                            <i class="fa fa-info-circle fa-lg resume-info progress-finish" data-toggle="tooltip" data-placement="bottom" title="Complete: We should have sufficient information to submit your details to prospective candidates." ng-style="endistyle"></i>
+                        </div>
+                        <div class="progress-info-bars">
+                            <div class="bar-1"></div>
+                            <div class="bar-2"></div>
+                            <div class="bar-3"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-line"></div>
+                            <div class="progress-current" ng-style="cvscorewidth"></div>
+                        </div>
+                        <div class="jobs-button-clear m-t-20" ng-show="crew_obj.tbl_crew_profile[0].cv_score>=80 && !crew_obj.tbl_crew_profile[0].jobready">
+                            <button type="button" class="btn-block pulse-button" ng-click="requestinterview();savecrew();getJobsView();jobfilter=1;">Apply for jobs</button>
+                        </div>
+                    </div>
+
+                    <div class="crew-cord-mobile" ng-show="lygadmin">
+                        <div class="crew-cord-title m-t-20">
+                            <div class="cord-icon">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <p>Contact your coordinator</p>
+                        </div>
+                        <div class="crew-cord">
+                            <div class="crew-cord-photo">
+                                <img ng-src="{{lygadmin.profileimg}}" height="48px" width="48px">
+                            </div>
+                            <div class="crew-cord-info">
+                                <h5>{{lygadmin.first_name}} {{lygadmin.last_name}}</h5>
+                                <a ng-href="mailto:{{lygadmin.email}}">{{lygadmin.email}}</a><br>
+                                <!-- <a>888-888-0000</a> Don't have data yet-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section>
                 <h2>Breadcrumb</h2>
-                <ul class="info-crumbs">
-                    <li><a href="/crewpositions">Yacht Department Directory</a></li>
-                    <li>></li>
-                    <li><a href="/crewpositions">Yacht Department Directory</a></li>
-                    <li>></li>
-                    <li class="light">Interior Department</li>
+                <ul class="breadcrumb">
+                    <li><a href="">Yacht Department Directory</a></li>
+                    <li><a href="">Yacht Department Directory</a></li>
+                    <li class="brand-text">Interior Department</li>
                 </ul>
             </section>
             <hr>
@@ -257,6 +452,15 @@
                                 <h3>Galley</h3>
                             </div>
                         </a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section><h2>Preloader</h2>
+                <div class="pre-wrapper">
+                    <div class="pre-loader">
+                        <i class="fa fa-spinner fa-pulse fa-3x fa-fw brand-blue" aria-hidden="true"></i>
+                        <h5 class="brand-headline">Page Loading</h5>
                     </div>
                 </div>
             </section>
@@ -414,7 +618,13 @@
             </div>  
                       <!-- TREE CONTENT DECK-->
             </section>
-            <hr>
+        </div>
+        <div class="col-md-1"></div>
+    </div>    
+    
+    <div class="row" style="margin-left:260px;" id="inputs">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
            <section>
                <h1 class="brand-blue">Inputs</h1>
                   <p>inputs are used throughout our crew and emplyer dashboard, as well as the crew search. The inputs have a max-width, and should alsways be used within a col-md-3 so that we have a max of 4 on each line.</p>
@@ -443,7 +653,13 @@
                        </div>
                    </div>
            </section>
-           <hr>
+        </div>
+        <div class="col-md-1"></div>
+    </div> 
+          
+    <div class="row" style="margin-left:260px;" id="inputs">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
            <section>
                <h1 class="brand-blue">Icons</h1>
                <h2>Fontawesome.com Icons</h2>
@@ -577,7 +793,13 @@
            <section>
                <h2>Custom Icons</h2>
            </section>
-           <hr>
+        </div>
+        <div class="col-md-1"></div>
+    </div> 
+          
+    <div class="row" style="margin-left:260px;" id="inputs">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;"> 
            <section>
                <h1 class="brand-blue">Chips / Cards</h1>
                <div class="row">
@@ -672,7 +894,9 @@
                    </div>
                </div>
            </section>
-           <hr>
+        </div>
+        <div class="col-md-1"></div>
+    </div>  
        
        
             <!-- CODE DUMP-->
@@ -809,9 +1033,94 @@
             </div>
             <!-- CREW SEARCH CARD-->
        
-       
+       <!--TABLES-->
+       <section>
+          <h2>Tables</h2>
+          <h3>4 columns</h3>
+           <div class="row cv-desktop m-t-20">
+               <div class="cert-table-title cv-mobile-hide">
+                   <div class="col-md-4 tb-w-25 pad-0">
+                       <h6 class="light">Certificate Name</h6>
+                   </div>
+                   <div class="col-md-4 tb-w-25 pad-0">
+                       <h6 class="light">Expiration Date</h6>
+                   </div>
+                   <div class="col-md-2 tb-w-25 pad-0">
+                       <h6 class="light">Attached File &nbsp;</h6>
+                   </div>
+                   <div class="col-md-2 tb-w-25 pad-0 experience-actions">
+                   </div>
+               </div>
+
+               <div ng-repeat="cert in crew_obj.tbl_crew_certificates | orderBy:['-primary_license','license_title'] " class="cert-primary">
+
+                   <div class="cert-table">
+                       <div class="col-md-4 tb-w-25 pad-0">
+                           <h5 class="long-name">
+                               <i class="fa fa-bookmark m-r-10" ng-show="cert.primary_license" style="color:#0372bc;float: left;margin-top: 2px;"></i>
+                               <i class="fa fa-bookmark-o m-r-10" ng-hide="cert.primary_license" style="color: #484848;opacity: .5;float: left;margin-top: 2px;"></i>
+                               {{cert.license_title}} &nbsp;
+                           </h5>
+                       </div>
+                       <div class="col-md-4 tb-w-25 pad-0">
+                           <h5><span ng-show="cert.expiry_date!='1900-01-01T00:00:00'">{{cert.expiry_date |  date:'MMM d, y'}}</span> &nbsp;</h5>
+                       </div>
+                       <div class="col-md-2 tb-w-25 pad-0">
+                           <a class="btn btn-secondary" style="margin-top:2px;" ng-href="https://luxyachts.com/Crew/Uploads/{{crew_obj.tbl_crew_profile[0].crew_profile_id}}/{{cert.certificate_file}}" ng-show="cert.certificate_file" base target="_blank">
+                               <i class="fa fa-download m-r-5" aria-hidden="true"></i> Download
+                           </a>
+                           <div ng-hide="cert.certificate_file">&nbsp;</div>
+                       </div>
+                       <div class="col-md-2 tb-w-25 pad-0 experience-actions">
+                           <div class="exp-btn-wrapper right">
+                               <button type="button" class="btn btn-secondary exp-btn right" ng-click="editcert(cert);;scrolltop();">
+                                   <i class="fa fa-pencil-square-o m-r-5" aria-hidden="true"></i>Edit
+                               </button>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+           
+           <h3> 6 columns</h3>
+           <div class="row m-b-40 jobs-table-desktop">
+               <!-- Confirming Interest Jobs-->
+               <div style="font-weight:bold;">
+                   <div class="jobs-type-title">
+                       <h4>
+                           LYG Crew Team found some positions you'd be great for.
+                           <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="These jobs have been handpicked for you by our crew coordinators."></i>
+                       </h4>
+                   </div>
+               </div>
+               <div class="job-title-bar job-hide" ng-show="jobfilter==1 && lygjobs>0">
+                   <div class="col-md-2">
+                       <h6>Title</h6>
+                   </div>
+                   <div class="col-md-2">
+                       <h6>Salary</h6>
+                   </div>
+                   <div class="col-md-2">
+                       <h6>Start</h6>
+                   </div>
+                   <div class="col-md-2">
+                       <h6>Location</h6>
+                   </div>
+                   <div class="col-md-1">
+                       <h6>Job #</h6>
+                   </div>
+                   <div class="col-md-3">
+                       <h6>Type</h6>
+                   </div>
+               </div>
+                   <div class="job-bottom-line" ng-hide="jobfilter==1 && liljobs==0">
+               </div>
+           </div>
+       </section>
        
        </div>
+       
         <div class="col-md-1"></div>
    </div>
 </body>
