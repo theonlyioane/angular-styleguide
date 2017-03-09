@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="42px" viewBox="0 0 18 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>engineering_ep_04</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="engineering_ep_04">
+            <g id="Group" fill="#0070BF">
+                <path d="M1,41 L17,41 L17,1 L1,1 L1,41 Z M0,0 L18,0 L18,42 L0,42 L0,0 Z" id="Rectangle-7-Copy" fill-rule="nonzero"></path>
+                <rect id="Rectangle-8-Copy-2" x="1" y="27" width="16" height="2"></rect>
+                <rect id="Rectangle-8-Copy-3" x="1" y="31" width="16" height="2"></rect>
+                <rect id="Rectangle-8-Copy-4" x="1" y="35" width="16" height="2"></rect>
+            </g>
+            <path d="M9,13 C9,11.3636364 10.1363636,10 11.5,10 C12.8636364,10 14,11.3636364 14,13 L9,13 L9,13 Z M9,13 C9,14.6363636 7.86363636,16 6.5,16 C5.13636364,16 4,14.6363636 4,13 L9,13 L9,13 Z M9,13 C7.36363636,13 6,11.8636364 6,10.5 C6,9.13636364 7.36363636,8 9,8 L9,13 L9,13 Z M9,13 C10.6363636,13 12,14.1363636 12,15.5 C12,16.8636364 10.6363636,18 9,18 L9,13 L9,13 Z" id="Shape" fill="#0372BC"></path>
+        </g>
+    </g>
+</svg>

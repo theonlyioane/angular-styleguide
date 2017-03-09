@@ -11,17 +11,32 @@
     <title>Luxury Yachts Styleguide</title>
 </head>
 <body>
-    <div class="row" style="max-width:1200px;margin:0 auto;">
-       <div class="col-md-12" >
+    <div class="sg-side">
+        <h3 class="brand-blue m-b-40">Luxury Yacht Group Styleguide</h3>
+        <ul>
+            <li>Introduction</li>
+            <li>Colors</li>
+            <li>Typography</li>
+            <li>Buttons</li>
+            <li>Inputs</li>
+            <li>Icons</li>
+            <li>Modules</li>
+            <li>Templates</li>
+            <li>Assets</li>
+        </ul>
+    </div>
+    <div class="row" style="margin-left:260px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
            <section ng-hide="introduction">
-               <h2 class="brand-blue">Introduction</h2>
+               <h1>Introduction</h1>
                <p>This is the style guide for Luxury Yacht Group. The latest CSS file for the global files can be found here:</p>
                <a href="https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css" target="_blank">https://github.com/theonlyioane/angular-styleguide/blob/master/css/global.css</a>
-               <h6 class="last-edit">Last Edit: 2-21-17</h6>
+               <h6 class="last-edit">Last Edit: 3-8-17</h6>
            </section>
            <hr>
            <section ng-hide="colors">
-               <h2 class="brand-blue">Colors</h2>
+               <h1>Colors</h1>
                <p>This is the style guide for Luxury Yacht Group</p>
                <div class="row">
                    <div class="col-md-3 col-xs-6">
@@ -55,7 +70,7 @@
                    <div class="col-md-3 col-xs-6">
                        <div class="swatch-wrapper">
                            <div class="swatch brand-text-swatch"></div>
-                           <h4>#9B9B9B</h4>
+                           <h4>#888888</h4>
                            <h5>.brand-text</h5>
                        </div>
                    </div>
@@ -77,24 +92,77 @@
            </section>
            <hr>
            <section ng-hide="type">
-               <h2 class="brand-blue">Headline Styles</h2>
+               <h1>Typography</h1>
+               <h2 >Headline Styles</h2>
                <h1 class="brand-headline">This is the style for the H1</h1>
+               <p class="content-title">Roboto Semibold - 32px</p>
+               <p class="m-b-40">H1 should be used as a page title, and should only be referenced once a page.</p>
+               
                <h2 class="brand-headline">This is the style for the H2</h2>
+               <p class="content-title">Roboto Semibold - 24px</p>
+               <p class="m-b-40">H2 should be used as section titles</p>
+               
                <h3 class="brand-headline">This is the style for the H3</h3>
+               <p class="content-title">Roboto Semibold - 18px</p>
+               <p class="m-b-40">Lorem Ipsum</p>
+               
                <h4 class="brand-headline">This is the style for the H4</h4>
+               <p class="content-title">Roboto Semibold - 16px</p>
+               <p class="m-b-40">Lorem Ipsum</p>
+               
                <h5 class="brand-headline">This is the style for the H5</h5>
+               <p class="content-title">Roboto Semibold - 14px</p>
+               <p class="m-b-40">Lorem Ipsum</p>
+               
                <h6 class="brand-headline">This is the style for the H6</h6>
-               <xmp><h1 class="brand-headline">This is the style for the H1</h1></xmp>
+               <p class="content-title">Roboto Bold - 12px</p>
+               <p class="m-b-40">H6 should be used for titles for inputs, or titles for miniature data cards.</p>
+               
+               <!--<xmp><h1 class="brand-headline">This is the style for the H1</h1></xmp>-->
            </section>
            <hr>
            <section>
-               <h2 class="brand-blue">Body Text</h2>
+               <h1 class="brand-blue">Body Text</h1>
                <p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p>
                <xmp><p class="brand-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque felis scelerisque nibh dictum dignissim. Vivamus non varius tellus. Etiam et elit scelerisque, lacinia odio quis, hendrerit ipsum. Quisque non egestas sapien, quis cursus augue. Aenean ultrices a leo a dictum. Cras viverra velit odio, id eleifend sem malesuada ut. Aliquam interdum molestie ante, eget accumsan purus efficitur finibus. Morbi eleifend lacinia risus, eget fermentum lorem luctus eget. Vivamus quis orci id nisl efficitur imperdiet. Aenean mollis varius lectus, vel suscipit libero imperdiet vel.</p></xmp>
            </section>
            <hr>
+            <section>                
+               <div class="row">
+                <div class="">
+                    <h2>Job Responsibilites</h2>
+                    <ul>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                    </ul>
+                    <h2>Required Skills</h2>
+                    <ul>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                        <li>List Item 1</li>
+                    </ul>
+                    <h2>Salary Modifiers</h2>
+                    <ul class="modifiers">
+                        <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <br>
+                        <li><div class="list-minus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-minus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-minus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                        <li><div class="list-minus"><i class="fa fa-plus" aria-hidden="true"></i></div>List Item</li>
+                    </ul>
+                   </div>
+                </div>
+                </section>
+           <hr>
            <section ng-hide="buttons">
-                <h2 class="brand-blue">Button Styles</h2>
+                <h1 class="brand-blue">Button Styles</h1>
                 <div class="row">
                     <div class="col-md-6 m-b-24">
                         <h5>Primary button style</h5> 
@@ -117,7 +185,6 @@
                         <xmp><button class="btn btn-alert">Alert Button</button></xmp>
                     </div>
                </div>
-                    
                <div class="row"> 
                    <div class="col-md-6 m-b-24">
                        <h5>Primary button style w/ icon</h5> 
@@ -142,8 +209,215 @@
                 </div>
            </section>
            <hr>
+           <section><h2>Text Links</h2></section><hr>
+            <section>
+                <h2>Breadcrumb</h2>
+                <ul class="info-crumbs">
+                    <li><a href="/crewpositions">Yacht Department Directory</a></li>
+                    <li>></li>
+                    <li><a href="/crewpositions">Yacht Department Directory</a></li>
+                    <li>></li>
+                    <li class="light">Interior Department</li>
+                </ul>
+            </section>
+            <hr>
+            <section><h2>Mobile Download button</h2>
+                <div class="mobile-download">
+                    <form method="get" action="~/Assets/img/position_images/svg/@Model.job.salary_img" target="_blank">
+                        <button type="submit">
+                            <i class="fa fa-search-plus fa-lg" aria-hidden="true"></i>Click to view the infographic
+                        </button>
+                    </form>
+                </div>
+            </section><hr>
+            <section>
+                <h2>Button Groups</h2>
+                <h4>With Iconography</h4>
+                <h4>Without Iconography</h4>
+            </section>
+            <hr>
+            <section><h2>Page Selectors</h2>
+                <div class="info-data-wrapper">
+                    <div class="row info-data-inner">
+                        <a href="/crewpositions/engineering">
+                            <div class="col-xs-6 info-data-footer">
+                                <div class="next-section">
+                                    <i class="fa fa-chevron-left"></i>
+                                </div>
+                                <h6>PREVIOUS</h6>
+                                <h3>Engineering</h3>
+                            </div>
+                        </a>
+                        <a href="/crewpositions/galley">
+                            <div class="col-xs-6 info-data-footer next-push" style="border-left:none;">
+                                <div class="next-section" style="float:right;">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
+                                <h6>NEXT</h6>
+                                <h3>Galley</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2>Career Path Buttons</h2>
+                <!-- TREE CONTENT DECK-->
+                <div class="row">
+                    <div class="col-md-6">
+                    <a href="/crewpositions/srmaster">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line-top"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_05.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">senior master</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/captain">
+                        <div class="career-path-wrapper ">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-side-horz"></div>
+                                <div class="career-side-line-bottom"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets//deck_ep_05.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">captain</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/jrcaptain">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-side-line"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_05.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">junior captain</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/firstofficer">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-side-horz"></div>
+                                <div class="career-side-line-top"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_04.svg" />
+                            </div>
+                            <div class="career-text" style="margin-top:17px">
+                                <h5 style="text-transform:capitalize;">first officer /<br> chief mate</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/oow">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_04.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">officer of the watch</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/mate">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_04.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">mate</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/bosun">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_03.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">bosun</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/deckhand">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_02.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">deckhand</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/crewpositions/jrdeckhand">
+                        <div class="career-path-wrapper">
+                            <div class="career-path">
+                                <div class="career-circle"></div>
+                                <div class="career-line-bottom"></div>
+                            </div>
+                            <div class="career-path-epaulet">
+                                <img src="/assets/deck_ep_01.svg" />
+                            </div>
+                            <div class="career-text">
+                                <h5 style="text-transform:capitalize;">junior deckhand</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-md-6">
+                    <h3>About the career path</h3>
+                    <p class="brand-alert">Add active states</p>
+                </div>
+            </div>  
+                      <!-- TREE CONTENT DECK-->
+            </section>
+            <hr>
            <section>
-               <h2 class="brand-blue">Inputs</h2>
+               <h1 class="brand-blue">Inputs</h1>
+                  <p>inputs are used throughout our crew and emplyer dashboard, as well as the crew search. The inputs have a max-width, and should alsways be used within a col-md-3 so that we have a max of 4 on each line.</p>
                    <div class="row">
                        <div class="col-md-6 m-b-24">
                            <h5>Input</h5> 
@@ -158,7 +432,6 @@
                            </div>
                            <xmp><div class="country-phone"><input class="country-left" value="+1"><input class="country-right" placeholder="Phone Number"></div></xmp>
                        </div>
-                       <!--
                        <div class="col-md-6 m-b-24">
                            <h5>Date Input</h5>
                            <div class="date-selector">
@@ -168,12 +441,12 @@
                            </div>
                            <xmp><div class="date-selector"><input class="date-left"><input class="date-middle"><input class="date-right"></div></xmp>
                        </div>
-                       -->
                    </div>
            </section>
            <hr>
            <section>
-               <h2 class="brand-blue">Icons</h2>
+               <h1 class="brand-blue">Icons</h1>
+               <h2>Fontawesome.com Icons</h2>
                <div class="row">
                    <div class="col-md-3">
                        <h5>Settings</h5>
@@ -229,7 +502,7 @@
            </section>
            <hr>
            <section>
-               <h2 class="brand-blue">Status Icons</h2>
+               <h2>Status badge icons</h2>
                <div class="row">
                    <div class="col-md-3">
                        <h5>Pending</h5>
@@ -263,7 +536,50 @@
            </section>
            <hr>
            <section>
-               <h2 class="brand-blue">Chips / Cards</h2>
+               <h2>Epaulets</h2>
+               <div class="row">
+                   <div class="col-md-3">
+                       <h3>Deck Epaulets</h3>
+                       <img class="m-r-5" src="assets/deck_ep_01.svg">
+                       <img class="m-r-5" src="assets/deck_ep_02.svg">
+                       <img class="m-r-5" src="assets/deck_ep_03.svg">
+                       <img class="m-r-5" src="assets/deck_ep_04.svg">
+                       <img class="m-r-5" src="assets/deck_ep_05.svg">
+                    </div>
+                   <div class="col-md-3">
+                       <h3>Engineer Epaulets</h3>
+                       <img class="m-r-5" src="assets/engineering_ep_01.svg">
+                       <img class="m-r-5" src="assets/engineering_ep_02.svg">
+                       <img class="m-r-5" src="assets/engineering_ep_03.svg">
+                       <img class="m-r-5" src="assets/engineering_ep_04.svg">
+                       <img class="m-r-5" src="assets/engineering_ep_05.svg">
+                   </div>
+                   <div class="col-md-3">
+                       <h3>Interior Epaulets</h3>
+                       <img class="m-r-5" src="assets/interior_ep_01.svg">
+                       <img class="m-r-5" src="assets/interior_ep_02.svg">
+                       <img class="m-r-5" src="assets/interior_ep_03.svg">
+                       <img class="m-r-5" src="assets/interior_ep_04.svg">
+                       <img class="m-r-5" src="assets/interior_ep_05.svg">
+                   </div>
+                   <div class="col-md-3">
+                       <h3>Galley Epaulets</h3>
+                       <img class="m-r-5" src="assets/galley_ep_01.svg">
+                       <img class="m-r-5" src="assets/galley_ep_02.svg">
+                       <img class="m-r-5" src="assets/galley_ep_03.svg">
+                       <img class="m-r-5" src="assets/galley_ep_04.svg">
+                       <img class="m-r-5" src="assets/galley_ep_05.svg">
+                   </div>
+               </div>
+               
+           </section>
+           <hr>
+           <section>
+               <h2>Custom Icons</h2>
+           </section>
+           <hr>
+           <section>
+               <h1 class="brand-blue">Chips / Cards</h1>
                <div class="row">
                    <div class="col-md-6">
                       <h5>User Badge</h5>
@@ -276,14 +592,14 @@
                                <a class="brand-blue">Test@gmail.com</a>
                            </div>
                            <div class="btn-group" role="group">
-                               <button type="button" class="btn btn-secondary"><i class="fa fa-anchor" aria-hidden="true"></i></button>
-                               <button type="button" class="btn btn-secondary"><i class="fa fa-ship" aria-hidden="true"></i></button>
+                               <button type="button" class="btn btn-secondary m-r-20"><i class="fa fa-anchor" aria-hidden="true"></i></button>
+                               <button type="button" class="btn btn-secondary m-r-20"><i class="fa fa-ship" aria-hidden="true"></i></button>
                                <button type="button" class="btn btn-secondary"><i class="fa fa-cog" aria-hidden="true"></i></button>
                            </div>
                        </div>
                    </div>
                    <div class="col-md-6 m-b-24">
-                       <xmp><div class="user-badge"><div class="user-profile"></div><div class="user-badge-info"><h6>ID# 123456</h6><h4>Jennie Smith</h4><a class="brand-blue">+1 808-721-3896</a><a class="brand-blue">Test@gmail.com</a></div><div class="btn-group" role="group"><button type="button" class="btn btn-secondary"><i class="fa fa-anchor" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary"><i class="fa fa-ship" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary"><i class="fa fa-cog" aria-hidden="true"></i></button></div></div></xmp>
+                       <xmp><div class="user-badge"><div class="user-profile"></div><div class="user-badge-info"><h6>ID# 123456</h6><h4>Jennie Smith</h4><a class="brand-blue">+1 808-721-3896</a><a class="brand-blue">Test@gmail.com</a></div><div class="btn-group" role="group"><button type="button" class="btn btn-secondary m-r-20"><i class="fa fa-anchor" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary m-r-20"><i class="fa fa-ship" aria-hidden="true"></i></button><button type="button" class="btn btn-secondary"><i class="fa fa-cog" aria-hidden="true"></i></button></div></div></xmp>
                    </div>
                </div>
                <div class="row m-b-24">
@@ -347,10 +663,156 @@
                        <xmp><div class="position-add">+ Add Position</div></xmp>
                    </div>
                </div>
+               <div class="row">
+                   <div class="col-md-3">
+                       <div class="pos-stats">
+                           <h6>AVERAGE TIME ON JOB</h6>
+                           <h3>4327 Days</h3>
+                       </div>
+                   </div>
+               </div>
            </section>
            <hr>
+       
+       
+            <!-- CODE DUMP-->
+            <!-- NEW JOB CARD -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card-wrapper" ng-show="!waitonjobs" ng-repeat="job in filteredjobs" ng-mouseenter="shadowshow = true;" ng-mouseleave="shadowshow=false;">
+                    <div class="job-card" style="border-bottom:none;">
+                        <div class="job-card-title">
+                            <div class="vertep" ng-click="gotojob(job.job_id,2)" tooltip-html-unsafe="{{job.position_title}}">
+                                <img ng-src="/Assets/img/{{job.epimg}}" style="margin-top: -4px;max-height: 13px;margin-left: 7px;" />
+                                <img ng-src="/Assets/img/EP_bars_{{job.hbars}}_horiz.png" style="padding-left: 2px;margin-top: -5px;margin-left: 4px;height: 22px;width: 14px;" />
+                            </div>
+                            <h5>{{job.positiontitle}}</h5>
+                            <h5><span>Job ID# {{job.job_id}}</span></h5>
+                        </div>
+                        <div class="job-card-asset">
+                            <img ng-src="/Assets/img/{{job.yachttypeimg}}" style="position:absolute;left:20px;"/>
+                            <h5 class="bold">Avanti<span>250 FT</span></h5>
+                        </div>
+                        <div class="job-card-information">
+                            <h5 class="semi-bold">Candidates Reviewed <span ng-show="countdone"><a href="">{{job.revcnt}}</a></span></h5>
+                            <h5 class="semi-bold">Submitted <span ng-show="countdone"><a href="">{{job.lygsubmit}}</a></span></h5>
+                            <h5 class="semi-bold">CV Requested <span ng-show="countdone"><a href="">{{job.shortlist}}</a></span></h5>
+                            <h5 class="semi-bold">Candidates Available <span ng-show="countdone"><a href="">{{job.totalcand}}</a></span></h5>
+                        </div>
+                        <div class="job-card-options">
+                            <button ng-click="gotojob(job.job_id,3)">
+                                <div class="job-message-alert bold">
+                                    <span style="position:inherit;margin-left:-3px;margin-top:-2px;">{{job.msgcount}}</span>
+                                </div>
+                                <i class="fa fa-envelope-o"></i>
+                            </button>
+                            <button style="border-left:1px solid #d3e0e9;" ng-click="gotojob(job.job_id,1)">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="job-card-view">
+                            <button type="button" class="btn btn-primary semi-bold" ng-click="goOrActivateJob(job.positiontitle, job.prim_pos_id, job.job_id, job.status);">View Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NEW JOB CARD -->
+
+            <!-- NEW ASSET CARD -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 job-card-wrapper" ng-repeat="yacht in yachts | filter: greaterThan('status', 0) | orderBy:['yacht_name']">
+                    <div class="job-card">
+                        <div class="job-card-asset">
+                            <img ng-src="{{yacht.boximg}}" style="position:absolute;left:20px;" />
+                            <h5 class="bold">{{yacht.yacht_name}}</h5>
+                            <!-- <span>Asset Size</span> -->
+                        </div>
+                        <div class="job-card-information">
+                            <h5 class="semi-bold">Role(s)<span class="asset-info">List of roles</span></h5>
+                            <h5 class="semi-bold">Open Jobs <span class="asset-info">(#) of Jobs</span></h5>
+                            <h5 class="semi-bold">Closed Jobs <span class="asset-info">(#) of Jobs</span></h5>
+                        </div>
+                        <div class="job-card-options asset-width">
+                            <button ng-click="slideAsset(yacht.yacht_type,yacht.manual_yacht_id);onClickTab('preview.tpl.html');">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                <span class="semi-bold" style="margin-left:5px;font-size:14px;color:#0372bc;">Edit</span> 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NEW ASSET CARD -->
+
+            <!-- CODE DUMP-->
+            <!-- NEW JOB CARD -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card-wrapper" ng-show="!waitonjobs" ng-repeat="job in filteredjobs" ng-mouseenter="shadowshow = true;" ng-mouseleave="shadowshow=false;">
+                    <div class="job-card" style="border-bottom:none;">
+                        <div class="job-card-title">
+                            <div class="vertep" ng-click="gotojob(job.job_id,2)" tooltip-html-unsafe="{{job.position_title}}">
+                                <img ng-src="/Assets/img/{{job.epimg}}" style="margin-top: -4px;max-height: 13px;margin-left: 7px;" />
+                                <img ng-src="/Assets/img/EP_bars_{{job.hbars}}_horiz.png" style="padding-left: 2px;margin-top: -5px;margin-left: 4px;height: 22px;width: 14px;" />
+                            </div>
+                            <h5>{{job.positiontitle}}</h5>
+                            <h5><span>Job ID# {{job.job_id}}</span></h5>
+                        </div>
+                        <div class="job-card-asset">
+                            <img ng-src="/Assets/img/{{job.yachttypeimg}}" style="position:absolute;left:20px;"/>
+                            <h5 class="bold">Avanti<span>250 FT</span></h5>
+                        </div>
+                        <div class="job-card-information">
+                            <h5 class="semi-bold">Candidates Reviewed <span ng-show="countdone"><a href="">{{job.revcnt}}</a></span></h5>
+                            <h5 class="semi-bold">Submitted <span ng-show="countdone"><a href="">{{job.lygsubmit}}</a></span></h5>
+                            <h5 class="semi-bold">CV Requested <span ng-show="countdone"><a href="">{{job.shortlist}}</a></span></h5>
+                            <h5 class="semi-bold">Candidates Available <span ng-show="countdone"><a href="">{{job.totalcand}}</a></span></h5>
+                        </div>
+                        <div class="job-card-options">
+                            <button ng-click="gotojob(job.job_id,3)">
+                                <div class="job-message-alert bold">
+                                    <span style="position:inherit;margin-left:-3px;margin-top:-2px;">{{job.msgcount}}</span>
+                                </div>
+                                <i class="fa fa-envelope-o"></i>
+                            </button>
+                            <button style="border-left:1px solid #d3e0e9;" ng-click="gotojob(job.job_id,1)">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="job-card-view">
+                            <button type="button" class="btn btn-primary semi-bold" ng-click="goOrActivateJob(job.positiontitle, job.prim_pos_id, job.job_id, job.status);">View Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NEW JOB CARD -->
+
+            <!-- CREW SEARCH CARD-->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 job-card-wrapper" ng-repeat="yacht in yachts | filter: greaterThan('status', 0) | orderBy:['yacht_name']">
+                    <div class="job-card">
+                        <div class="job-card-asset">
+                            <img ng-src="{{yacht.boximg}}" style="position:absolute;left:20px;" />
+                            <h5 class="bold">{{yacht.yacht_name}}</h5>
+                            <!-- <span>Asset Size</span> -->
+                        </div>
+                        <div class="job-card-information">
+                            <h5 class="semi-bold">Role(s)<span class="asset-info">List of roles</span></h5>
+                            <h5 class="semi-bold">Open Jobs <span class="asset-info">(#) of Jobs</span></h5>
+                            <h5 class="semi-bold">Closed Jobs <span class="asset-info">(#) of Jobs</span></h5>
+                        </div>
+                        <div class="job-card-options asset-width">
+                            <button ng-click="slideAsset(yacht.yacht_type,yacht.manual_yacht_id);onClickTab('preview.tpl.html');">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                <span class="semi-bold" style="margin-left:5px;font-size:14px;color:#0372bc;">Edit</span> 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CREW SEARCH CARD-->
+       
+       
+       
        </div>
+        <div class="col-md-1"></div>
    </div>
-    
 </body>
 </html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="42px" viewBox="0 0 18 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>interior_ep_05</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="interior_ep_05">
+            <g id="Group" fill-rule="nonzero" fill="#0070BF">
+                <path d="M1,41 L17,41 L17,1 L1,1 L1,41 Z M0,0 L18,0 L18,42 L0,42 L0,0 Z" id="Rectangle-7-Copy"></path>
+            </g>
+            <rect id="Rectangle-8" fill="#0070BF" x="1" y="23" width="16" height="2"></rect>
+            <rect id="Rectangle-8" fill="#0070BF" x="1" y="27" width="16" height="2"></rect>
+            <rect id="Rectangle-8" fill="#0070BF" x="1" y="31" width="16" height="2"></rect>
+            <rect id="Rectangle-8" fill="#0070BF" x="1" y="35" width="16" height="2"></rect>
+            <path d="M5,7.73420195 C7.18615385,8.36920195 8.76923077,10.264202 8.76923077,12.504202 C8.76923077,14.744202 7.18615385,16.639202 5,17.274202 C5.51153846,17.424202 6.05,17.504202 6.61538462,17.504202 C9.58769231,17.504202 12,15.264202 12,12.504202 C12,9.74420195 9.58769231,7.50420195 6.61538462,7.50420195 C6.05,7.50420195 5.51153846,7.58420195 5,7.73420195 Z" id="Fill-322" fill="#0372BC" transform="translate(8.500000, 12.504202) rotate(-180.000000) translate(-8.500000, -12.504202) "></path>
+        </g>
+    </g>
+</svg>
