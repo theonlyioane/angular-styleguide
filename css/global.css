@@ -12,6 +12,9 @@ a {
     color:#0372BC;
     text-decoration: underline;
 }
+p {
+    color:#888888;
+}
 /*BRAND COLORS*/
 .brand-blue {
     color:#0372BC;
@@ -33,6 +36,10 @@ a {
 }
 .brand-green {
     color:#2DA94F;
+}
+li {
+    margin:12px 0px;
+    color:#888888;
 }
 /*FONTS*/
 h1 {
@@ -1008,15 +1015,16 @@ CREWSEARCHCTKR
     position: absolute;
     margin-top: 4px;
     border-radius:6px;
+    margin-left:-18px
 }
 .list-minus {
     width:12px;
     height:12px;
     background:#ea4335;
     position: absolute;
-
     margin-top: 4px;
     border-radius:6px;
+    margin-left:-18px
 }
 
 

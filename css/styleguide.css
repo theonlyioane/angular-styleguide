@@ -4,14 +4,6 @@
 body {
     background:#F5F8FA;
 }
-ul {
-    list-style: none;
-    padding-left:0px;
-}
-li {
-    font-size:14px;
-    margin-bottom: 14px;
-}
 .m-b-24 {
     margin-bottom:24px;
 }
@@ -30,6 +22,8 @@ section {
     position: fixed;
     float:left;
     padding:20px;
+    overflow-y: scroll;
+    background: #fff;
 }
 .m-b-40 {
     margin-bottom: 40px;
@@ -57,10 +51,10 @@ xmp:hover {
 hr {
     float:left;
     width: 100%;
-    margin:40px 0px;
+    margin:20px 0px;
 }
 .content-title {
-    opacity: .35;
+    opacity: .5;
 }
 /*BRAND COLORS*/
 
