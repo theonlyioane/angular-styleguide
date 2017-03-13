@@ -15,7 +15,9 @@
            <div class="sg-logo">
                <img src="assets/logo.png" style="width:200px;margin-bottom:40px;">
            </div>
-           <div class="sg-title">Styleguide 1.0</div>
+           <div class="sg-title">Styleguide 1.0
+               <i class="fa fa-calendar-o brand-blue" style="float:right;color:#fff;margin-top:2px;" aria-hidden="true" data-toggle="tooltip" title="Last Updated: 3-13-2017"></i>
+            </div>
         <ul style="list-style:none;padding:20px;">
             <li><h4><a href="#introduction">Introduction</a></h4></li>
             <li><h4><a href="#colors">Colors</a></h4></li>
@@ -88,7 +90,6 @@
                <h1>Introduction</h1>
                <p>This is the style guide for Luxury Yacht Group. The latest CSS file for the global files can be found here:</p>
                 <a href="https://github.com/luxyachts/angular-styleguide/blob/master/css/global.css" target="_blank">https://github.com/luxyachts/angular-styleguide/blob/master/css/global.css</a>
-               <h6 class="last-edit">Last Edit: 3-8-17</h6>
            </section>
         </div>
         <div class="col-md-1"></div>
@@ -367,6 +368,7 @@
             <hr>
             <section id="buttongroups">
                 <h2>Button Groups</h2>
+                <p>Button groups are used for either step-based flows, or for loading a section of content below the button group.</p>
                 <h4>Text only button group</h4>
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                     <div class="btn-group" role="group">
@@ -381,6 +383,7 @@
                 </div>
                 <hr>
                 <h4>With Iconography</h4>
+                <p>Icons inside of the buttons should help convey themessage of the button, and should be pulled form the designated icons in this styleguide.</p>
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-default btn-active"><i class="fa fa-cog fa-lg" aria-hidden="true"></i><span>Left</span></button>
@@ -425,13 +428,13 @@
                 </div>
             </section>
             <hr>
-            <section id="mobiledownload"><h2>Mobile Download button</h2>
+            <section id="mobiledownload">
+                <h2>Mobile Download button</h2>
+               <p class="p-width">Mobile download buttons should only be visible under 768 width screens, and are used as a secondary viewing method for larger content that does not scale well on mobile. The link should open open up a .PDf or .SVG in a new table and should allow the user to zoom in and out of the document.</p>
                 <div class="mobile-download">
-                    <form method="get" action="~/Assets/img/position_images/svg/@Model.job.salary_img" target="_blank">
-                        <button type="submit">
-                            <i class="fa fa-search-plus fa-lg" aria-hidden="true"></i>Click to view the infographic
-                        </button>
-                    </form>
+                    <button type="submit">
+                        <i class="fa fa-search-plus fa-lg m-r-10" aria-hidden="true"></i>Click to view the infographic
+                    </button>
                 </div>
             </section>
             <hr>
@@ -601,7 +604,7 @@
                        <div class="col-md-3 m-b-24">
                           <div class="lux-input">
                                <h6>Input Title</h6> 
-                              <i class="fa fa-info-circle brand-blue" aria-hidden="true" data-toggle="tooltip" title="Not all inputs need to have the tooltip. Simply delete the a tag and use the rest of the code."></i>
+                               <i class="fa fa-info-circle brand-blue" aria-hidden="true" data-toggle="tooltip" title="Not all inputs need to have the tooltip. Simply delete the a tag and use the rest of the code."></i>
                                <input class="input-wrapper" placeholder="Type Here">
                            </div>
                            <xmp><div class="lux-input"><h6>Input Title</h6><i class="fa fa-info-circle brand-blue" aria-hidden="true" data-toggle="tooltip" title="Hooray!"></i><input class="input-wrapper" placeholder="Type Here"></div></xmp>
@@ -1407,6 +1410,39 @@
                         </div>
                     </div>
                 </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2>Side Nav</h2>
+                        <div class="side-nav">
+                           <h6>Side Nav Title</h6>
+                            <ul>
+                                <li><a>Clickable Link</a></li>
+                                <li class="side-nav-active"><a>Clickable Link</a></li>
+                                <li><a>Clickable Link</a></li>
+                                <li><a>Clickable Link</a></li>
+                                <li><a>Clickable Link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2>Article Author</h2>
+                        <p class="m-b-24">Article cards should be used on the blog articles</p>
+                        <div class="article-author">
+                            <div class="author-avatar">
+                                <img src="https://www.luxyachts.com/Media/Default/images/Staff/Mike_Sept2015.jpg">
+                            </div>
+                            <div class="author-title">
+                                <h6>Posted 3-12-2017 by</h6>
+                                <h5>Jackson Kiterton</h5>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
                 
             </section>
         </div>
@@ -1440,6 +1476,15 @@
         <div class="col-md-10" style="background:#FFF;border:1px solid #D3E0E9;margin-top:20px;">
             <section>
                 <h1>Assets</h1>
+                <h2>Content container</h2>
+                <p></p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content">
+                            This is a content wrapper
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
         <div class="col-md-1"></div>
@@ -1465,14 +1510,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

@@ -46,6 +46,36 @@ section {
 .m-r-5 {
     margin-right:5px;
 }
+.margin-8{
+    height:8px;
+    width:8px;
+    background:#D3E0E9;
+    margin-bottom:48px
+}
+.margin-16{
+    height:16px;
+    width:16px;
+    background:#D3E0E9;
+    margin-bottom:40px;
+}
+.margin-24{
+    height:24px;
+    width:24px;
+    background:#D3E0E9;
+    margin-bottom:32px
+}
+.margin-32 {
+    height:32px;
+    width:32px;
+    background:#D3E0E9;   
+    margin-bottom:24px;
+}
+.margin-48{
+    height:48px;
+    width:48px;
+    background:#D3E0E9;
+    margin-bottom:8px;
+}
 xmp {
     background: #F5F8FA;
     border:1px solid #D3E0E9;
