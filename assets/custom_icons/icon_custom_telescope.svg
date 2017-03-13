@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="17px" viewBox="0 0 60 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_custom_telescope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_custom_telescope" fill="#0372BC">
+            <path d="M19.987,4.731 L4.581,6.099 C3.826,4.951 2.529,4.191 1.052,4.191 L0.303,4.191 L0.303,12.635 L1.052,12.635 C2.529,12.635 3.826,11.876 4.581,10.728 L19.987,12.096 L19.987,4.731" id="Fill-8"></path>
+            <polyline id="Fill-9" points="22.434 13.717 52.215 15.134 52.215 1.693 22.434 3.11 22.434 13.717"></polyline>
+            <polygon id="Fill-10" points="54.662 16.642 59.403 16.642 59.403 0.185 54.662 0.185"></polygon>
+        </g>
+    </g>
+</svg>
