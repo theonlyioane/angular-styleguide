@@ -1,0 +1,417 @@
+<html lang="en" ng-app>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="/css/styleguide.css"> 
+        <link rel="stylesheet" href="/css/global.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <title>Luxury Yacht Group | Blank Template</title>
+    </head>
+    <body>
+        <a href="/index.html">
+            <div class="styleguide-back">
+                <p><i class="fa fa-arrow-left" aria-hidden="true" style="margin-right:10px;"></i>Back to Styleguide</p>
+            </div>
+        </a>
+        <div class="navbar" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="/assets/logo.png" height="40px" width="195px"></a>
+                <div class="nav-links">
+                    <button>
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </button>
+                    <button>
+                        <i class="fa fa-search fa-lg" aria-hidden="true"></i> 
+                    </button>
+                    <button class="mobileHide">
+                        <i class="fa fa-sign-in" aria-hidden="true" style="margin-right:10px;"></i>Sign In
+                    </button>
+                    <button class="mobileHide">
+                        <i class="fa fa-user-plus" aria-hidden="true" style="margin-right:10px;"></i>Create Account
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page-title">
+            <div class="row page-wrapper">
+                <div class="col-md-12">
+                    <div class="info-title-image">
+                        <img src="/assets/positions/article_deck_captain_01.jpg"/>
+                    </div>
+                    <div class="ep-wrapper-title">
+                        <img src="/assets/deck_ep_05.svg" style="height:100%;" alt=""/>
+                    </div>
+                    <ul class="breadcrumb">
+                        <li><a href="">Department Directory</a></li>
+                        <li><a href="">Deck Department</a></li>
+                        <li class="brand-text">Captain</li>
+                    </ul>
+                    <div class="headline">
+                        <h1>Yacht Position : Captain</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--
+        <div class="info-title-wrapper">
+            <div class="row info-title">
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    
+                    <div class="info-title-header">
+                        <ul class="info-crumbs">
+                            <li><a href="/crewpositions">Yacht Department Directory</a></li>
+                            <li>></li>
+                            <li style="text-transform:capitalize;"><a>Dept Department</a></li>
+                            <li>></li>
+                            <li class="light">Captain</li>
+                        </ul>
+                        <h1>Yacht Position : Captain</h1>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="info-social">
+                        <h6 class="light">SHARE THIS PAGE</h6>
+                        <div class='oss-widget-interface'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <div class="mobile-download">
+            <a href="/assets/positions/Deck_Position_Captain.svg" target="_blank">
+                <button type="submit">
+                    <i class="fa fa-search-plus fa-lg" aria-hidden="true"></i>Click to view the infographic
+                </button>
+            </a>
+        </div>
+        
+        <div class="info-graphic">
+            <div class="info-graphic-wrapper">
+                <img src="/assets/positions/Deck_Position_Captain.svg" class="img-responsive" alt="@Model.job.salary_img_alt">
+            </div>
+        </div>
+        
+        <div class="salary-content-wrapper">
+            <div class="row info-data-inner">
+                <div class="col-md-8 col-sm-8 info-dept-about">
+                    <h2>About the Captain Position</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum purus a mattis pretium. Nunc luctus non libero porttitor gravida. Quisque vel gravida velit, nec condimentum enim. Vestibulum sed mauris aliquet, sodales ante in, fermentum ex. Nam eu libero eu velit interdum consequat a eu purus. Pellentesque vestibulum dolor eu facilisis malesuada. Donec a pretium eros. Vestibulum volutpat, magna volutpat euismod rhoncus, arcu lectus tincidunt nulla, semper pulvinar ante metus non urna.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum purus a mattis pretium. Nunc luctus non libero porttitor gravida. Quisque vel gravida velit, nec condimentum enim. Vestibulum sed mauris aliquet, sodales ante in, fermentum ex. Nam eu libero eu velit interdum consequat a eu purus. Pellentesque vestibulum dolor eu facilisis malesuada. Donec a pretium eros. Vestibulum volutpat, magna volutpat euismod rhoncus, arcu lectus tincidunt nulla, semper pulvinar ante metus non urna.</p>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2>Job Responsibilites</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            </ul>
+                            <h2>Required Skills</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            </ul>
+                            <h2>Salary Modifiers</h2>
+                            <ul class="modifiers">
+                                <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li><div class="list-plus"><i class="fa fa-plus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <br />
+                                <li><div class="list-minus"><i class="fa fa-minus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li><div class="list-minus"><i class="fa fa-minus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li><div class="list-minus"><i class="fa fa-minus" aria-hidden="true"></i></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12 pad-0 position-image-hide" style="margin-top:40px;">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 position-mobile-break">
+                                    <div class="position-image">
+                                        <img src="/assets/positions/article_image.png" alt="" title="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 info-dept-about career-section">
+                    <h2>Position Statistics</h2>
+                    <div class="data-card">
+                        <h6>Salary and longevity numbers based on:</h6>
+                        <h3>9999</h3>
+                    </div>
+                    <div class="data-card">
+                        <h6>Average time on job</h6>
+                        <h3>9999</h3>
+                    </div>
+                    <div class="data-card">
+                        <h6>Currently Available</h6>
+                        <h3>9999</h3>  
+                        <a href="" class="btn btn-primary" type="submit" target="_blank"><i class="fa fa-external-link" aria-hidden="true" style="margin-right:10px;"></i> View Candidates</a>
+                    </div>
+
+                    <h2>Career Path</h2>
+                        <a href="/crewpositions/srmaster">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line-top"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_05.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">senior master</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/captain">
+                            <div class="career-path-wrapper ">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-side-horz"></div>
+                                    <div class="career-side-line-bottom"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets//deck_ep_05.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">captain</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/jrcaptain">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-side-line"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_05.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">junior captain</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/firstofficer">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-side-horz"></div>
+                                    <div class="career-side-line-top"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_04.svg" />
+                                </div>
+                                <div class="career-text" style="margin-top:17px">
+                                    <h5 style="text-transform:capitalize;">first officer /<br> chief mate</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/oow">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_04.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">officer of the watch</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/mate">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_04.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">mate</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/bosun">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_03.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">bosun</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/deckhand">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_02.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">deckhand</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/crewpositions/jrdeckhand">
+                            <div class="career-path-wrapper">
+                                <div class="career-path">
+                                    <div class="career-circle"></div>
+                                    <div class="career-line-bottom"></div>
+                                </div>
+                                <div class="career-path-epaulet">
+                                    <img src="/assets/deck_ep_01.svg" />
+                                </div>
+                                <div class="career-text">
+                                    <h5 style="text-transform:capitalize;">junior deckhand</h5>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-wrapper">
+            <div class="row next-page-inner">
+                <a href="/crewpositions/engineering">
+                    <div class="col-xs-6 next-page-button">
+                        <div class="next-section">
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                        <div class="">
+                            <h6>Previous</h6>
+                            <h3>Engineering</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/crewpositions/galley">
+                    <div class="col-xs-6 next-page-button next-push" style="border-left:none;">
+                        <div class="next-section" style="float:right;">
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                        <div class="">
+                            <h6>Next</h6>
+                            <h3>Galley</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="float">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/assets/footer_logo_white.png" class="img-responsive" style="min-width:250px;max-width:300px;" />
+                        <p class="quote">"Luxury Yacht Group provides sales, charter, management and crew services to luxury yachts and their owners around the world."</p>
+                    </div>
+                    <div class="col-md-1 mobile-center m-l-3p">
+                        <h5>COMPANY</h5>
+                        <ul>
+                            <li><a href="https://www.luxyachts.com/about-us">About</a></li>
+                            <li><a href="https://www.luxyachts.com/site/map">Sitemap</a></li>
+                            <li><a href="https://www.luxyachts.com/contact-us">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1 mobile-center m-l-1p">
+                        <h5>MAIN</h5>
+                        <ul>
+                            <li><a href="https://www.luxyachts.com/sales">Sales</a></li>
+                            <li><a href="https://www.luxyachts.com/charter">Charter</a></li>
+                            <li><a href="https://www.luxyachts.com/management">Management</a></li>
+                            <li><a href="https://www.luxyachts.com/crew">Crew</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 mobile-center m-l-1p footer-fix">
+                        <h5>CONNECT</h5>
+                        <ul>
+                            <li>Fort Lauderdale: <span>+1 954 525 9959</span></li>
+                            <li>UK: <span>+44 (0) 238 000 9959</span></li>
+                            <li>San Diego: <span>+1 858 224 2789</span></li>
+                            <li>Annapolis: <span>+1 443 808 0717</span></li>
+                            <li>Antibes: <span>+33 (0) 489 120 970</span></li>
+                            <li>Mallorca: <span>+34 (871) 151211</span></li>
+                            <li>Auckland: <span>+64 (0) 9 282 4530</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mobile-center m-l-1p">
+                        <h5>SOCIAL</h5>
+                        <div class="footerSocial">
+                            <a href="mailto:info@luxyachts.com" target="_blank">
+                                <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.facebook.com/LuxuryYachtGroup/" target="_blank">
+                                <i class="fa fa-facebook fa-lg" aria-hidden="true" style="margin-top:7px;"></i>
+                            </a>
+                            <a href="https://www.instagram.com/luxuryyachtgroup/" target="_blank">
+                                <i class="fa fa-instagram fa-lg" aria-hidden="true" style="margin-top:6px;"></i>
+                            </a>
+                        </div>
+                        <div class="footerLegal">
+                            <h5>Copyright ©2001 - 2017 Luxury Yacht Group LLC</h5>
+                            <a href="https://www.luxyachts.com/Terms-and-Conditions">Terms of Use</a>
+                            <a href="https://www.luxyachts.com/privacy-policy">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

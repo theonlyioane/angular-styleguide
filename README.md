@@ -1,1 +1,1 @@
-### Angular-styleguide
+### Luxury Yacht Group Styleguide

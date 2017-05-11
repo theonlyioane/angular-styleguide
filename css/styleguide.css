@@ -40,6 +40,13 @@ section {
     overflow-y: scroll;
     background: #fff;
 }
+.scale-text {
+    padding:16px;
+    width:100%;
+    border:1px solid #0372BC;
+    float:left;
+    text-align: center;
+}
 .m-b-40 {
     margin-bottom: 40px;
 }
@@ -89,6 +96,7 @@ xmp {
     -webkit-transition: opacity .25s ease-out;
     -o-transition: opacity .25s ease-out;
     float:left;
+    overflow-x: scroll;
 }
 xmp:hover {
     opacity: 1;
@@ -149,394 +157,9 @@ hr {
 .brand-green-swatch {
     background:#2DA94F;
 }
-
-
-
-/*NAV*/   
-/* 
-.nav-avatar{
-height:36px;
-width:36px;
-float:left;
-border:1px solid #D3E0E9;
-padding:6px 0px;
-}  
-*/
-.nav-user-info {
-    margin-left: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-top: 11px;
-    float: left;
+.brand-gold {
+    background:#FFD700;
 }
-.nav-user-info h6,
-.nav-user-info h5{
-    margin:0px;
-}
-.nav-user-info h5 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-/*NAV SEARCH*/    
-.nav-search {
-    width: 400px;
-    position: absolute;
-    right: 0;
-    top:60px;
-}
-.nav-search-input {
-    width:400px;
-    height:56px;
-    background:#0372BC;
-    padding:10px;
-}
-.nav-search input {
-    height:34px;
-    width:290px;
-    margin-right: 8px;
-    padding-left:10px;
-    border-radius:4px;
-    border:none;
-}
-.nav-search button {
-    background:#fff;
-    color:#0372BC;
-}
-.nav-links button {
-    background:#fff;
-    float:right;
-}
-@media only screen and (max-width: 990px) {
-    .navbar-toggle {
-        margin: 0px;
-    }
-    .navbar-default .navbar-toggle .icon-bar{
-        background-color: #fff;
-        margin-left: 9px;
-    }
-    .progressBtn {
-        margin-top: 5px;
-    }
-    .resumeSection .resumeBtn p {
-        font-size: 18px;
-        float: left;
-        margin-bottom: 10px;
-        margin-top: 8px;
-    }
-    .nav-links button .fa {
-        margin-right: 0px;
-    }
-
-}
-@media only screen and (max-width:989px) {
-    .nav-tablet-hide {
-        display:none;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .nav-user-info h6 {
-        font-size:12px !important;
-    }
-    .nav-user-info h5{
-        font-size:14px !important;
-    }
-    .tablet-badge-show{
-        display:none;
-    }
-    .open-nav-title .nav-user {
-        margin-top:0px;
-    }
-    .nav-user {
-        float:left;
-    }
-    .nav-justified > li {
-        display: table-cell;
-        width: 1%;
-    }
-    .nav-justified > li > a  {
-        border-bottom: 1px solid #fff !important;
-        border-radius: 4px 4px 0 0 !important;
-    }
-    .mobileHide {
-        display: none;
-    }
-    .tablet-badge-show {
-        display:block;
-        border: none;
-        background: #fff;
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 14px;
-    }
-    .open-nav-title {
-        display:block;
-        height: 60px;
-        background: #fff;
-        width: inherit;
-        border-left:1px solid #D3E0E9;
-    }
-    .logged-out-mobile-push{
-        top:59px !important;
-    }
-    .open-nav-wrapper {
-        width:100%;
-        position:absolute;
-    }
-}
-@media only screen and (max-width: 640px) {
-    /*.nav-tablet-hide {
-    display:block;
-}*/
-    .open-nav,
-    .open-nav-title,
-    .nav-search,
-    .open-search-title{
-        width:100%;
-    }
-    /*.open-nav-wrapper {
-    overflow: hidden;
-}*/
-    .open-nav {
-        position: absolute;
-    }
-    .navbar-header {
-        position:relative;
-        cursor:pointer;
-    }
-    .nav-search-input input {
-        width:70%;
-    }
-    .nav-search-input {
-        width:auto;
-    }
-    .mobile-right {
-        float: right;
-    }
-    .open-nav-title .nav-user {
-        border: none;
-        background: #fff;
-        max-width: 226px;
-        position: absolute;
-        padding:0px;
-        margin-top:0px;
-    }
-} 
-
-@media only screen and (max-width: 400px) {
-    .navbar-brand img {
-        max-width: 130px;
-        height: auto;
-        margin-top: 3px;
-    }
-}
-
-/*******************************************
-FOOTER STYLES
-/*******************************************/
-.float {
-    float:left;
-    width: 100%;
-    background: #0372bc; 
-}
-.footer {
-    max-width: 1620px;
-    margin: 0 auto;
-    padding:40px 0px;
-    height:auto;
-}
-.footer .row {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.footer img {
-    padding-right:40px;
-}
-.footer p {
-    color:#fff;
-}
-.footer .quote {
-    margin-top:20px;
-    font-style:italic;
-}
-.footer h5 {
-    color: #fff;
-    opacity:.5;
-}
-.footer ul {
-    list-style-type:none;
-    padding-left: 0px;
-}
-.footer ul li {
-    color: #fff;
-    line-height: 1.2;
-    list-style-type: none !important;
-}
-.footer li a {
-    color:#fff;
-}
-.footer li a:hover {
-    opacity:.8;
-}
-.footer h5 {
-    color: #fff;
-    font-size:14px;
-}
-.footer .fa {
-    color:#fff;
-
-}
-.footer label {
-    color: #484848;
-}
-.footer ul li span {
-    color:#fff;
-    text-decoration: none !important;
-    font-weight:500;
-}
-.footer h6{
-    margin-top: 15px;
-}
-.footerSocial {
-    margin-bottom: 20px;
-}
-.footerSocial a{
-    height:48px;
-    width:48px;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border:2px solid #fff;
-    border-radius:24px;
-    text-align:center;
-    vertical-align:middle;
-    display:inline-block;
-    margin-right:15px;
-    padding:10px 0px;
-}
-.footerPush {
-    margin-top:40px;
-}
-.footerSocial .fa {
-    margin-top:4px;
-}
-.footerSocial .fa.fa-envelope-o {
-    float: none;
-    font-size: 20px;
-}
-.footerLegal {
-    float:left;
-}
-.footerLegal h5 {
-    color: #fff;
-    font-weight: 300;
-    opacity:.5;
-    line-height:1.5;
-}
-.footerLegal a {
-    margin-right:20px;
-    color:#fff;
-}
-.connect-push {
-    margin-top:25px;
-}
-.m-l-1p {
-    margin-left:1%;
-}
-.m-l-3p {
-    margin-left:3%;
-}
-.footertermspriv {
-    float:left;
-    margin-left:-20px;
-}
-@media only screen and (max-width: 1630px) {
-    .footer-fix li span {
-        float:left;
-        width:100%;
-        margin-bottom:10px;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    .m-l-1p,
-    .m-l-3p {
-        margin-left:0px;
-    }
-    .mobile-hide {
-        display: none;
-    }
-    .connect-push {
-        margin-top:-10px;
-    }
-    .mobile-center {
-        text-align:center;
-        padding-left: 0px !important;
-    }
-    .footer .quote {
-        padding: 0px 40px;
-    }
-    .footer {
-        padding-left: 0px;
-    }
-    .footerSocial{
-        text-align:center;
-    }
-    .footerSocial a {
-        margin-right:0px;
-        margin:0px 10px;
-    }
-    .footer p {
-        text-align:center;
-    }
-    .footerLegal {
-        margin-left:0px;
-    }
-    .footer ul li {
-        font-size:14px;
-    }
-    .footer img {
-        padding:0px 120px;
-        margin: auto;
-        max-width: 500px !important;
-    }
-    .footerLegal{
-        float:none;
-        text-align: center;
-        margin-top:20px;
-    }
-    .footertermspriv {
-        float:none;
-        margin-left:0px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .footerLegal h5 {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    .footer img {
-        padding:0px 40px;
-        margin: auto;
-        max-width: 60% !important;
-    }
-}
-@media only screen and (max-width: 460px) {
-    .footerLegal {
-        margin-top:0px;
-    }
-    .footer-no-horz {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .footerSocial a {
-        margin: 0px 5px; 
-    }
-}
-
-
 .solid-background {
     background:#0372BC;
     padding:20px;
@@ -550,4 +173,33 @@ FOOTER STYLES
     text-align: center;
     padding-top:8px;
     color:#888888;
+}
+
+.styleguide-back {
+    background:#0372BC;
+    padding:8px 0px; 
+}
+.styleguide-back:hover {
+    background:#0067AC;
+}
+.styleguide-back p{
+    color:#fff;
+    font-weight:700;
+    padding:0px;
+    max-width:1600px;
+    margin:0 auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .sg-side{
+        display: none;
+    }
+    .row{
+        margin-left:-10px !important;
+    }
+    xmp{
+        display:none;
+    }
 }
